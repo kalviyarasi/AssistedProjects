@@ -1,0 +1,9 @@
+#f1{
+    padding-left: 200px;
+    padding-top: 40px;
+}
+body{
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
