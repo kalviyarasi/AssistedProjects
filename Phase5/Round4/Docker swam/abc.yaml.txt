@@ -1,0 +1,18 @@
+version: "3"
+services:
+ consumer:
+   image: kalviyarasi/consumer
+   networks:
+     - consumer-producer
+   depends_on:
+     - producer
+
+ producer:
+   image: kalviyarasi/consumer
+   ports:
+     - "8080:8080"
+   networks:
+     - consumer-producer
+
+networks:
+  consumer-producer:

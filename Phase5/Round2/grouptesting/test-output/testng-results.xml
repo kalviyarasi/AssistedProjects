@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="131" started-at="2022-10-06T13:39:02 IST" finished-at="2022-10-06T13:39:02 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="FirstTest.test1()[pri:0, instance:com.example.FirstTest@e320068]" name="test1" class="com.example.FirstTest"/>
+        <method signature="NewTest.test6()[pri:0, instance:com.example.NewTest@27f723]" name="test6" class="com.example.NewTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="NewTest.test4()[pri:0, instance:com.example.NewTest@27f723]" name="test4" class="com.example.NewTest"/>
+        <method signature="NewTest.test6()[pri:0, instance:com.example.NewTest@27f723]" name="test6" class="com.example.NewTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test1" duration-ms="68" started-at="2022-10-06T13:39:02 IST" finished-at="2022-10-06T13:39:02 IST">
+      <class name="com.example.FirstTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.example.FirstTest@e320068]" name="test1" duration-ms="20" started-at="2022-10-06T13:39:02 IST" finished-at="2022-10-06T13:39:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.example.FirstTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="16" started-at="2022-10-06T13:39:02 IST" finished-at="2022-10-06T13:39:02 IST">
+      <class name="com.example.NewTest">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.example.NewTest@27f723]" name="test4" duration-ms="2" started-at="2022-10-06T13:39:02 IST" finished-at="2022-10-06T13:39:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:com.example.NewTest@27f723]" name="test6" duration-ms="5" started-at="2022-10-06T13:39:02 IST" finished-at="2022-10-06T13:39:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- com.example.NewTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

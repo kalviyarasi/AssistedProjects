@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="383" started-at="2022-10-06T13:35:22 IST" finished-at="2022-10-06T13:35:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="383" started-at="2022-10-06T13:35:22 IST" finished-at="2022-10-06T13:35:23 IST">
+      <class name="TestNg.TestNG.PriorityTesting">
+        <test-method status="PASS" signature="signup()[pri:1, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="signup" duration-ms="133" started-at="2022-10-06T13:35:22 IST" finished-at="2022-10-06T13:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method status="PASS" signature="signin()[pri:2, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="signin" duration-ms="3" started-at="2022-10-06T13:35:23 IST" finished-at="2022-10-06T13:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="search()[pri:3, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="search" duration-ms="2" started-at="2022-10-06T13:35:23 IST" finished-at="2022-10-06T13:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="book()[pri:4, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="book" duration-ms="2" started-at="2022-10-06T13:35:23 IST" finished-at="2022-10-06T13:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book -->
+        <test-method status="PASS" signature="save()[pri:5, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="save" duration-ms="2" started-at="2022-10-06T13:35:23 IST" finished-at="2022-10-06T13:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- save -->
+        <test-method status="PASS" signature="pay()[pri:6, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="pay" duration-ms="2" started-at="2022-10-06T13:35:23 IST" finished-at="2022-10-06T13:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pay -->
+        <test-method status="PASS" signature="logout()[pri:7, instance:TestNg.TestNG.PriorityTesting@2833cc44]" name="logout" duration-ms="1" started-at="2022-10-06T13:35:23 IST" finished-at="2022-10-06T13:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestNg.TestNG.PriorityTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
